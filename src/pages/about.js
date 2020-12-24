@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql} from "gatsby";
 import Layout from "../components/layout";
+import {Link} from "gatsby";
 
 export default function About() {
     const data = useStaticQuery(graphql`query{site{siteMetadata{title}}}`)
@@ -12,6 +13,9 @@ export default function About() {
                 We're the only site running on your computer dedicated to showing the
                 best photos and videos of pandas eating lots of food.
             </p>
+            <Link to={`/my-files/`}>
+                see Site's Files
+            </Link>
         </Layout>
     )
 }
