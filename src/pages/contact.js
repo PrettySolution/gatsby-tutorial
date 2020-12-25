@@ -5,11 +5,11 @@ const ContactPage = () => {
     <Layout>
       <h1>Contact</h1>
       <p>
-        The best wa to reach me is via{" "}
-        <a href="https://google.com" rel="noreferrer" target="_blank">
-          @vasyl
-        </a>{" "}
-        on Twitter!
+        The best way to reach me is via {" "}
+        <a href="https://t.me/vasylherman">
+          +380954140885
+        </a>
+        {" "} on Telegram!
       </p>
     </Layout>
   )
