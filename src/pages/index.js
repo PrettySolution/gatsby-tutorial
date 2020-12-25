@@ -6,7 +6,6 @@ import {rhythm} from "../utils/typography"
 
 
 export default function Home({ data }) {
-  console.log(data)
   return (
       <Layout>
         <div>
