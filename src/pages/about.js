@@ -1,23 +1,14 @@
-import React from "react";
-import { useStaticQuery, graphql} from "gatsby";
-import Layout from "../components/layout";
-import {Link} from "gatsby";
-
-export default function About() {
-    const data = useStaticQuery(graphql`query{site{siteMetadata{title}}}`)
-
-    return (
-        <Layout>
-            <h1>About {data.site.siteMetadata.title}</h1>
-            <p>
-                We're the only site running on your computer dedicated to showing the
-                best photos and videos of pandas eating lots of food.
-            </p>
-            <Link to={`/my-files/`}>
-                see Site's Files
-            </Link>
-        </Layout>
-    )
+import React from "react"
+import {Link} from "gatsby"
+import Layout from "../components/layout"
+const AboutPage = () => {
+  return (
+    <Layout>
+      <h1>About me</h1>
+      <p>I curently learn full time</p>
+      <p><Link to="/contact/">Want to work with me? Reach out.</Link></p>
+    </Layout>
+  )
 }
 
-// export const query = graphql`{site{siteMetadata{title}}}`
+export default AboutPage
