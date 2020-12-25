@@ -5,11 +5,8 @@ const ContactPage = () => {
     <Layout>
       <h1>Contact</h1>
       <p>
-        The best way to reach me is via {" "}
-        <a href="https://t.me/vasylherman">
-          +380954140885
-        </a>
-        {" "} on Telegram!
+        The best way to reach me is via{" "}
+        <a href="https://t.me/vasylherman">+380954140885</a> on Telegram!
       </p>
     </Layout>
   )
