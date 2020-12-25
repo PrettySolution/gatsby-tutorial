@@ -33,7 +33,7 @@ const BlogPage = () => {
               <Link to={`/blog/${edge.node.fields.slug}`} className={blogStyles.link}>
               <h2>{edge.node.frontmatter.title}</h2>
               <p>{edge.node.excerpt}</p>
-              <p>{edge.node.frontmatter.date}</p>
+              <p className={blogStyles.date}>{edge.node.frontmatter.date}</p>
               </Link>
             </li>
           )
