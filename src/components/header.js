@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
 import headerStyle from "./header.module.scss"
 
 const Header = () => {
@@ -17,27 +17,36 @@ const Header = () => {
               to={"/"}
               className={headerStyle.navItem}
               activeClassName={headerStyle.activeNavItem}
-            >Home</Link>
+            >
+              Home
+            </Link>
           </li>
           <li>
             <Link
-              to={"/blog/"} className={headerStyle.navItem}
+              to={"/blog/"}
+              className={headerStyle.navItem}
               activeClassName={headerStyle.activeNavItem}
-            >Blog</Link>
+            >
+              Blog
+            </Link>
           </li>
           <li>
             <Link
               to={"/contact/"}
               className={headerStyle.navItem}
               activeClassName={headerStyle.activeNavItem}
-            >Contact</Link>
+            >
+              Contact
+            </Link>
           </li>
           <li>
             <Link
               to={"/about/"}
               className={headerStyle.navItem}
               activeClassName={headerStyle.activeNavItem}
-            >About</Link>
+            >
+              About
+            </Link>
           </li>
         </ul>
       </nav>
