@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{"3XHS":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),l=n.n(a),c=n("Wbzz"),u=n("Bl7J");t.default=function(){return l.a.createElement(u.a,null,l.a.createElement("h1",null,"About me"),l.a.createElement("p",null,"I curently learn full time"),l.a.createElement("p",null,l.a.createElement(c.Link,{to:"/contact/"},"Want to work with me? Reach out.")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-3695c9f30dfd98f17ab1.js.map

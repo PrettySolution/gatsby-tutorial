@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"Cuy+":function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("Bl7J");t.default=function(){return l.a.createElement(r.a,null,l.a.createElement("h1",null,"Contact"),l.a.createElement("p",null,"The best way to reach me is via"," ",l.a.createElement("a",{href:"https://t.me/vasylherman"},"+380954140885")," on Telegram!"))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-5a52497399f8c45705a9.js.map
