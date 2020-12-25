@@ -31,7 +31,7 @@ const BlogPage = () => {
           return (
             <li key={edge.node.id}>
               <Link
-                to={`/blog/${edge.node.fields.slug}`}
+                to={`/blog/${edge.node.fields.slug}/`}
                 className={blogStyles.link}
               >
                 <h2>{edge.node.frontmatter.title}</h2>

@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pretty Solution`,
-        short_name: `PS`,
+        name: `Pretty Solution - Blog`,
+        short_name: `Pretty Solution`,
         start_url: `/`,
         background_color: `#FFCC44`,
         theme_color: `#FFCC44`,
