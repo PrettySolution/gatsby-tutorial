@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Pretty Solution",
     author: "Vasyl Herman",
+    description: "Personal blog of an IT kid",
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -20,5 +21,23 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Pretty Solution`,
+        short_name: `PS`,
+        start_url: `/`,
+        background_color: `#FFCC44`,
+        theme_color: `#FFCC44`,
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: `standalone`,
+        icon: `static/android-chrome-512x512.png`, // This path is relative to the root of the site.
+      },
+    },
+    //The offline plugin should be listed after the manifest plugin
+    // so that the offline plugin can cache the created manifest.webmanifest.
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
